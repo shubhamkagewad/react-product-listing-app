@@ -1,16 +1,71 @@
-# React + Vite
+# React Product Listing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive product listing application built using React.js, Vite, JavaScript, and the DummyJSON Products API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetch products from a REST API.
+- Display products using reusable React components.
+- Search products by name.
+- Filter products by category.
+- Sort products by price (low to high and high to low).
+- Pagination with Previous and Next controls.
+- Loading, error, and empty states.
+- Responsive layout for desktop, tablet, and mobile.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Hooks (`useState`, `useEffect`)
+- Fetch API
+- Vite
+- Git and GitHub
 
-## Expanding the Oxlint configuration
+## API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Product data provided by [DummyJSON](https://dummyjson.com/docs/products).
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project:
+
+   ```bash
+   cd react-product-listing-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+## Learning Outcomes
+
+- Working with REST APIs in React.
+- Managing component state using React Hooks.
+- Passing data and functions through props.
+- Implementing search, filtering, sorting, and pagination.
+- Building reusable components.
+- Handling loading, error, and empty states.
+- Creating responsive layouts using CSS.
