@@ -33,7 +33,7 @@ Product data provided by [DummyJSON](https://dummyjson.com/docs/products).
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/shubhamkagewad/react-product-listing-app.git
    ```
 
 2. Navigate to the project:
